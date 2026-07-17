@@ -269,7 +269,8 @@ footer { margin-top: 60px; padding: 54px 0 40px; border-top: 1px solid var(--lin
       linear-gradient(180deg, rgba(23,21,18,.5) 0%, rgba(23,21,18,.82) 55%, #171512 100%),
       var(--hero-img) center 20% / cover no-repeat;
   }
-  .hero-copy h1 { font-size: clamp(40px, 11vw, 56px); }
+  /* Smaller min/scale so the longest word ("Photographer") never clips at ~380px */
+  .hero-copy h1 { font-size: clamp(26px, 7.2vw, 52px); }
   .hero-tag { font-size: 14px; }
   .specialties { grid-template-columns: repeat(2, 1fr); }
   .spec { padding: 16px 18px; }
