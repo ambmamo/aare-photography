@@ -254,6 +254,9 @@ footer { margin-top: 60px; padding: 54px 0 40px; border-top: 1px solid var(--lin
   /* Sticky, pinned header (mobile only). Establishes the positioning context
      for the dropdown panel; no scroll-lock is applied anywhere. */
   nav { position: sticky; top: 0; z-index: 40; background: var(--bg); box-shadow: 0 6px 18px rgba(64,52,30,.06); }
+  /* Scale the logo with the viewport so "aarekunle.photography" + hamburger
+     stay on one line without pushing the header past 100% (no horizontal scroll). */
+  nav .logo { font-size: clamp(14px, 4.4vw, 18px); }
   .about, .cards, .t-cards { grid-template-columns: 1fr; }
   .nav-links { display: none; }
   .nav-right .socials, .nav-right .btn { display: none; }

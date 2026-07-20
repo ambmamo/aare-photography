@@ -85,17 +85,17 @@ export const processSteps = [
 export const testimonials = [
   {
     quote: 'Aare made our wedding day feel calm and cinematic. The photos still make us smile every time.',
-    name: 'Amara O.',
+    name: 'Aisha',
     role: 'Bride, Lagos',
   },
   {
     quote: 'Sharp eye, effortless direction, zero drama. Our event coverage was exactly the story we wanted told.',
-    name: 'David K.',
+    name: 'Olere',
     role: 'Event Lead',
   },
   {
     quote: 'The documentary series completely captured the spirit of the campaign. Honest and unmistakably ours.',
-    name: 'Sofia R.',
-    role: 'Creative Director',
+    name: 'Babajide',
+    role: 'Campaign manager',
   },
 ]
