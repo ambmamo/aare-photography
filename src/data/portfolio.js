@@ -6,7 +6,7 @@
 export const portfolio = [
   {
     category: 'Documentary',
-    blurb: 'Summarising the life of a gubernatorial aspirant in Oyo State.',
+    blurb: 'Tracing a life and legacy, framed through the culture and heritage of the Southwest.',
     images: [
       { src: '/images/work/documentary/documentary-01.webp', alt: 'Documentary 1' },
       { src: '/images/work/documentary/documentary-02.webp', alt: 'Documentary 2' },

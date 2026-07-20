@@ -2,7 +2,7 @@
 // Real details from CONTENT.md. Items marked PLACEHOLDER need Aare's real words.
 
 export const brand = {
-  name: 'Aare Photography',
+  name: 'Aarekunle Photography',
   photographer: 'Aare Fuad',
   location: 'Ibadan, Oyo State — available to travel',
 }
@@ -44,7 +44,7 @@ export const specialties = [
 export const services = [
   {
     title: 'Documentary',
-    blurb: 'Long-form visual stories that follow a life or a cause.',
+    blurb: 'Tracing a life and legacy, framed through the culture and heritage of the Southwest.',
     image: '/images/work/documentary/documentary-01.webp',
   },
   {

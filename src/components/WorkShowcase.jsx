@@ -1,12 +1,13 @@
-import { useState } from 'react'
 import { portfolio } from '../data/portfolio'
 import Reveal from './Reveal'
 import PhotoCarousel from './PhotoCarousel'
 
 // Outer carousel: tabs switch between category panels (Documentary, Weddings,
 // Shows & Events, Personal). Each panel holds a reusable PhotoCarousel.
-export default function WorkShowcase({ onOpen, lightboxOpen }) {
-  const [active, setActive] = useState(0)
+// The active category is controlled by App so "See works" cards can deep-link
+// straight to the matching panel.
+export default function WorkShowcase({ onOpen, lightboxOpen, active, onActiveChange }) {
+  const setActive = onActiveChange
 
   return (
     <Reveal as="section" className="gallery" id="work">

@@ -1,17 +1,11 @@
-import { useEffect } from 'react'
 import { nav } from '../data/site'
 import Socials from './Socials'
 
-// Full-screen mobile nav (below 900px). Open state + Esc handling live in
-// Navbar; this just renders and locks body scroll while open.
+// Compact dropdown panel from the header (below 900px). Rendered inside the
+// sticky <nav> so it anchors under the header. It does NOT lock body scroll —
+// the visitor can keep scrolling the page while it's open. Open state, Esc, and
+// outside-tap close are handled in Navbar.
 export default function MobileDrawer({ open, onClose }) {
-  useEffect(() => {
-    document.body.style.overflow = open ? 'hidden' : ''
-    return () => {
-      document.body.style.overflow = ''
-    }
-  }, [open])
-
   return (
     <div className={`drawer ${open ? 'open' : ''}`} id="drawer">
       {nav.map((item) => (

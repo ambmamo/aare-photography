@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { FiMaximize2 } from 'react-icons/fi'
 
 const pad = (n) => String(n).padStart(2, '0')
 
@@ -79,6 +80,10 @@ export default function PhotoCarousel({ images, title, onOpen, keyboardEnabled =
         >
           →
         </button>
+      </div>
+      <div className="car-hint">
+        <FiMaximize2 aria-hidden="true" />
+        Click any photo to view it full screen
       </div>
       <div className="car-footer">
         <div className="dots">

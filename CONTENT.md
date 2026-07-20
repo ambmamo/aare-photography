@@ -1,13 +1,13 @@
-# Aare Photography — Site Content
+# Aarekunle Photography — Site Content
 
-Content source of truth for the site. Business: **Aare Photography**. Photographer: **Aare Fuad**.
+Content source of truth for the site. Business: **Aarekunle Photography**. Photographer: **Aare Fuad**.
 
 > NOTE: Copy marked _(placeholder — expand)_ is written to fill the layout. Replace with Aare's real words before launch.
 
 ## Brand
-- Business name: **Aare Photography**
+- Business name: **Aarekunle Photography**
 - Photographer: **Aare Fuad**
-- Logo text: `aare.photography` (or "Aare Photography" — confirm preference)
+- Logo text: `aarekunle.photography` (or "Aarekunle Photography" — confirm preference)
 
 ## Navigation
 Home · About · Work · Process · Contact
@@ -30,7 +30,7 @@ Suggested 2 short paragraphs + signature "— Aare Fuad".
 
 ## Services / "What I do" cards
 Use the four real categories (or pick the top 3 for the cards; the full four live in the Work carousel):
-- **Documentary** — Long-form visual stories that follow a life or a cause.
+- **Documentary** — Tracing a life and legacy, framed through the culture and heritage of the Southwest.
 - **Weddings** — Moments of happiness and joy from couples, families and well-wishers.
 - **Shows & Events** — The energy, and the celebrities, of live shows and events.
 - **Personal** — Studio and outdoor snapshots capturing everyday moments.
@@ -38,7 +38,7 @@ Use the four real categories (or pick the top 3 for the cards; the full four liv
 ## Work (carousel categories + blurbs)
 Drives `src/data/portfolio.js`. Structure: `[{ category, blurb, images: [...] }]`.
 
-1. **Documentary** — "Summarising the life of a gubernatorial aspirant in Oyo State." _(expand: add subject/year if shareable.)_
+1. **Documentary** — "Tracing a life and legacy, framed through the culture and heritage of the Southwest."
 2. **Weddings** — "A documentary of moments of happiness and joy from the couples, families and well-wishers."
 3. **Shows & Events** — "Captures of the celebrities in shows and events."
 4. **Personal** — "Studio and outdoor snapshots capturing moments."

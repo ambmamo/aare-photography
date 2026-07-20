@@ -2,8 +2,9 @@ import { services } from '../data/site'
 import Reveal from './Reveal'
 
 // "What I do" — three service cards (top 3 categories). All four categories
-// live in the Work carousel below.
-export default function Services() {
+// live in the Work carousel below. "See works" deep-links to the matching
+// category panel via onSelectCategory (handled in App).
+export default function Services({ onSelectCategory }) {
   return (
     <Reveal as="section" className="whatido">
       <div className="head">
@@ -18,7 +19,14 @@ export default function Services() {
             <div className="card-body">
               <h3>{s.title}</h3>
               <p>{s.blurb}</p>
-              <a href="#work" className="btn btn-outline-dark">
+              <a
+                href="#work"
+                className="btn btn-outline-dark"
+                onClick={(e) => {
+                  e.preventDefault()
+                  onSelectCategory(s.title)
+                }}
+              >
                 See works <span className="arr">→</span>
               </a>
             </div>
